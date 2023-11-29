@@ -1,0 +1,26 @@
+[
+  {
+    "fullName": "John Doe",
+    "email": "johndoe@example.com",
+    "password": "00000000",
+    "phone": "23212892"
+  },
+  {
+    "fullName": "Ahmed Haddada",
+    "email": "Ahmedhaddada11@gmail.com",
+    "password": "1111111",
+    "phone": "1111111"
+  },
+  {
+    "fullName": "adem Mlayeh",
+    "email": "ademMlayeh@example.com",
+    "password": "2222222",
+    "phone": "23212892"
+  },
+  {
+    "fullName": "mamoun",
+    "email": "mamoun@example.com",
+    "password": "33333333",
+    "phone": "23212892"
+  }
+]

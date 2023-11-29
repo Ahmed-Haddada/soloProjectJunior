@@ -1,0 +1,17 @@
+main {
+  // overflow: hidden;
+  flex: 1;
+}
+.navProduct {
+  position: relative;
+  top: 70px;
+  width: fit-content;
+  left: 150px;
+  display: flex;
+  gap: 20px;
+  a {
+    color: black;
+    font-weight: 600;
+  }
+
+}

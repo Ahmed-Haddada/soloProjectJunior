@@ -1,0 +1,59 @@
+.containerBoxDashboard {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-around;
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 3px 8px 2px #f2dddd;
+    max-width: 220px;
+    width: 100%;
+    padding: 0px 15px;
+    border-radius: 10px;
+    background-color: #eee;
+
+    p {
+      font-weight: 600;
+    }
+    .icon {
+      padding: 10px;
+      position: relative;
+      top: -20px;
+      left: -2px;
+      color: white;
+      border-radius: 10px;
+      font-size: 21px;
+    }
+  }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  position: relative;
+  top: 10%;
+  margin-left: 40px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.closeUpdate {
+  position: absolute;
+  right: -10px;
+  top: -7px;
+  font-size: 38px;
+  color: rebeccapurple;
+  cursor: pointer;
+}

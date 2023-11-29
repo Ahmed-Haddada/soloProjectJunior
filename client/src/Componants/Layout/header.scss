@@ -1,0 +1,37 @@
+$color_1: black;
+$color_2: #4d4d4d;
+$color_3: #161616;
+
+header {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  background: #eee;
+  padding: 6px 70px;
+
+  .site-logo {
+    color: $color_1;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  a {
+    text-decoration: none;
+    color: $color_2;
+    font-weight: 600;
+    padding: 5px 20px;
+    &:hover {
+      color: $color_3;
+      text-decoration: underline;
+    }
+  }
+  .registerBtn,
+  .loginBtn {
+    background: black !important;
+    color: white !important;
+  }
+  .registerBtn {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  background: #3c3c85;
+  width: 20%;
+  min-height: 100%;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 10px;
+  height: 1000px;
+  a {
+    color: white;
+    font-weight: 600;
+  }
+  .logo {
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+    padding: 20px 0;
+    border-bottom: 1px #9a8989 solid;
+  }
+}
+
